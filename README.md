@@ -1,7 +1,7 @@
 # 健身動作資料庫 (Exercise Library)
 
 1324 個健身動作的資料庫網站，附動作示範動畫 (animated WebP)。
-
+原项目：https://github.com/hasaneyldrm/exercises-dataset
 ## 使用方式
 
 純靜態網站，無後端、無資料庫：

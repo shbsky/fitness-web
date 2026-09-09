@@ -352,9 +352,9 @@ function openDetail(id){
   const favOn=favs.has(id);
   drawer.innerHTML=`
     <div class="drawer-head">
-      <button class="round-btn" data-act="close" aria-label="關閉">✕</button>
-      <div class="ttl">${escapeHtml(x.name)}</div>
       <button class="round-btn" data-act="lang" title="切換 中/EN 說明">${lang==="zh"?"中":"EN"}</button>
+      <div class="ttl">${escapeHtml(x.name)}</div>
+      <button class="round-btn" data-act="close" aria-label="關閉">✕</button>
     </div>
     <div class="drawer-body">
       <div class="hero-anim">
